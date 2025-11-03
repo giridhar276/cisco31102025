@@ -1,0 +1,4 @@
+101,python,bangalore
+102,unix,hyderabad
+103,java,delhi
+104,ruby,mumbai
