@@ -302,15 +302,87 @@ finally
 raise 
 
 
+C - header files
+-----------------------
+#include<stdio.h>
+#include<math.h>
+#include<conio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<graphics.h>
+#include<stdmanip.h>
+#include<time.h>
+#include<datetime.h>
+
+
+python - library | package | module 
+--------------------------------------
+
+
+builtin libraries 
+-----------------
+when python is installed, it is installed with default libraries which are generally used
+3000+ libraries are installed 
+
+
+third party libraries 
+------------------------
+Depending on the requirement(network automations, server automation, database , cloud),
+ developer has to install the third party library from
+www.pypi.org website using pip tool
+
+6L+ libraires are availble in pypi.org website
+
+Eg: pip install pandas 
+
+
+
+requirement/task  =    core programming    +   libraries    + domain expertise
+                     ( procedural or oop)
 
 
 
 
 
+Linux               python 
+-----------------------------------
+ls                  import os 
+                    print(os.listdir())
+
+
+rm -rf abc.txt      os.remove(file)
 
 
 
+date                import datetime 
+                    print(datetime.datetime.now())
+                    print(datetime.date.today())
 
+
+copy files          import shutil 
+                    print(shutil.copy(source,destination))
+
+
+
+cpu utilization        import psutil 
+memory utilization
+
+
+
+# write a program to display all the files line by line from the 
+    current directory with exception handling
+                    
+
+
+
+3 protocols for connecting to the remote servers 
+----------------------------------------------------
+
+telnet ( outdated)
+
+ftp 
+
+ssh 
 
 
 
