@@ -1,0 +1,39 @@
+
+
+
+########################ftp server details ###########################
+Host: test.rebex.net
+Port: 21
+User: demo
+Password: password
+######################################################################
+
+step1:
+open command prompt
+
+step2:
+cd Desktop   ( after that cross check that you are in Desktop path)
+
+step3:
+cd programs  ( you might have programs folder on desktop )
+
+step4:
+ftp test.rebex.net
+
+step5:
+provide username
+
+step6:
+provide password
+
+after successful login .. you should see the below message
+230 Login successful.
+
+step7:
+put yourscript.py   ( you are uploading file to ftp server)
+
+step8:
+get  yourscript.py   ( you are downloading from ftp server)
+
+
+
