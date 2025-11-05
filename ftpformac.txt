@@ -18,9 +18,6 @@ brew --version
 brew install inetutils
 
 
-source ~/.zshrc
-
-
 
 
 ftp test.rebex.net
