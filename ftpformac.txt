@@ -18,12 +18,6 @@ brew --version
 brew install inetutils
 
 
-/usr/local/opt/inetutils/bin/ftp
-
-
-echo 'export PATH="/usr/local/opt/inetutils/bin:$PATH"' >> ~/.zshrc
-
-
 source ~/.zshrc
 
 
