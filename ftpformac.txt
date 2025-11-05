@@ -1,0 +1,32 @@
+
+
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+
+
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+
+brew --version
+
+
+brew install inetutils
+
+
+/usr/local/opt/inetutils/bin/ftp
+
+
+echo 'export PATH="/usr/local/opt/inetutils/bin:$PATH"' >> ~/.zshrc
+
+
+source ~/.zshrc
+
+
+
+
+ftp test.rebex.net
