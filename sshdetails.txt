@@ -1,0 +1,11 @@
+
+
+##########ssh server details   #######################
+
+Host: test.rebex.net
+
+Port: 22
+
+User: demo
+
+Password: password
