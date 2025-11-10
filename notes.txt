@@ -8,7 +8,8 @@ double
 long
 short
 
-Everything in python is object
+Everything in python is object.
+Every object contains methods.
 
 
 python objects 
@@ -227,6 +228,11 @@ working with third party files  ( pdf  xlsx  pptx docx mp4  7z  winzip  winrar)
 ------------------------
 - using libraries
 
+import openpyxl   ---> excel operations 
+import pil        ---> image processing 
+import pptx       --->  powerpoint related
+import pypdf      ----> for editing pdf
+
 
 
 
@@ -302,18 +308,264 @@ finally
 raise 
 
 
+C - header files
+-----------------------
+#include<stdio.h>
+#include<math.h>
+#include<conio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<graphics.h>
+#include<stdmanip.h>
+#include<time.h>
+#include<datetime.h>
+
+
+python - library | package | module 
+--------------------------------------
+
+
+builtin libraries 
+-----------------
+when python is installed, it is installed with default libraries which are generally used
+3000+ libraries are installed 
+
+
+third party libraries 
+------------------------
+Depending on the requirement(network automations, server automation, database , cloud),
+ developer has to install the third party library from
+www.pypi.org website using pip tool
+
+6L+ libraires are availble in pypi.org website
+
+Eg: pip install pandas 
+
+
+
+requirement/task  =  core programming  + libraries + domain expertise
+                     ( procedural or oop)
 
 
 
 
 
+Linux               python 
+-----------------------------------
+ls                  import os 
+                    print(os.listdir())
+
+
+rm -rf abc.txt      os.remove(file)
+
+
+
+date                import datetime 
+                    print(datetime.datetime.now())
+                    print(datetime.date.today())
+
+
+copy files          import shutil 
+                    print(shutil.copy(source,destination))
+
+
+
+cpu utilization        import psutil 
+memory utilization
+
+
+
+# write a program to display all the files line by line from the 
+    current directory with exception handling
+                    
+
+
+
+network protocols 
+
+3 protocols for connecting to the remote servers 
+----------------------------------------------------
+
+telnet ( outdated)
+
+ftp ( used for downloading/uploading files to remove server)
+
+ssh ( used for execute commands/downloading/uploading to remove server)
+
+
+ftp ( used for downloading/uploading files to remove server)
+--------------------------------------------------------
+ftp test.rebex.net
+user:
+password:
+
+ftp commands
+-------------
+ls              : list all the files 
+get filename    : to download the file
+mget file1 file2: downloading multiple files
+put filename    : copy the file to remote server 
+mput file1 file2: copy multiple files to remote server
 
 
 
 
 
+There are 2 types of functions 
+
+1. builtin functions 
+2. user defined functions 
+
+############
+#c language
+##############
+int add(int a,int b)
+{
+    int c;
+    c = a + b;
+    return c
+}
+
+total = add(10,20);
+
+function | definition | block | subroutine | submodule
+---------------------------------------------------
+- resusability purpose
+
+########
+# python - definition
+#########
+def add(a,b):
+    c = a + b
+    return c
+
+total = add(10,20);
+
+different ways of passing arguments
+-----------------------------------------
+fixed arguments
+default arguments
+keyword arguments
+variable length arguments
 
 
+There are 2 ways of programming 
+----------------------------------
+
+procedural programming ( C )
+--------------------------
+top-down approach
+modular programming
+
+
+object oriented programming ( C++ , java , python )
+--------------------------------------------
+- global concepts for all the object oriented languages
+- concepts will remain same in all the langauges, just the syntax changes.
+
+class
+object 
+constructor
+inheritance
+encapsulation
+abstraction 
+poloymorphism 
+- function overloading 
+- operator overloading
+
+
+class 
+--------
+class is like a blueprint of some realworld entitity
+Every class contains members(functions) and attributes(variables)
+
+object 
+------
+object is the instance of the class.
+
+self 
+------
+self is the instance of the object
+
+
+
+
+GET → requests.get(url)
+
+POST → requests.post(url, json=data)
+
+PUT → requests.put(url, json=data)
+
+DELETE → requests.delete(url)
+
+
+installing libraries using pip
+---------------------------------
+
+
+create requirements.txt 
+-------------------------
+psutil
+pymysql
+
+
+
+and in the terminal :
+-------------------
+pip intall -r requirements.txt 
+
+
+
+----------------------------------------
+creating virtual environments 
+---------------------------------------
+
+There are 3 ways of creating virtual environments
+
+1. using venv library  ( this is builtin library )
+-----------------------------------------------------
+
+step1: create your virtual environment:
+--------------------------------------------
+syntax: python -m venv <yourenviornmentname>
+python -m venv myenv1
+
+step2: acvivate your environment
+------------------------------------
+windows: .\myenv1\Scripts\activate
+mac    : source ./myenv1/bin/activate
+
+step3 : deactivate  ( will take you to the base python )
+-----------------
+deactivate
+
+
+2. using conda library ( only for anaconda installation)
+--------------------------------------------------------------
+
+
+3. using virtualenv library ( this is third party library)
+
+
+
+analytics 
+----------
+numpy 
+scipy 
+pandas 
+
+
+
+python extensions 
+---------------------
+.py
+.ipynb
+.pyc 
+
+
+        step1: compilation        step2: interpreted
+hello.py -------------> hello.pyc --------------->  output
+hello.py -----------------------------------------> output
 
 
 
