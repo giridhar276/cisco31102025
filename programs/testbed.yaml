@@ -1,0 +1,25 @@
+testbed:
+  name: simple_testbed
+  credentials:
+    default:
+      username: "cisco"
+      password: "cisco"
+
+devices:
+  R1:
+    os: iosxe
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 192.168.1.10
+        port: 22
+
+  R2:
+    os: iosxe
+    type: router
+    connections:
+      cli:
+        protocol: ssh
+        ip: 192.168.1.11
+        port: 22
