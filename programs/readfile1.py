@@ -31,6 +31,6 @@ print(df)
 
 
 #pip install pandas  ( windows)
-#pip3 install pandas ( Mac)
+not
 
     

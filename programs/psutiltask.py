@@ -10,8 +10,6 @@ write a script to display the below information
 5. boot time of your system
 6. IP Address of your system
 7. hostname of the system
-
-
 '''
 import psutil 
 import platform

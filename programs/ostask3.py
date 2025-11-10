@@ -7,7 +7,6 @@ try:
             print(file)
 except Exception as err:
     print(err)
-
 ######################### display directories only
 import os
 try:

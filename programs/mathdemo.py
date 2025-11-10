@@ -14,3 +14,4 @@ from math import floor,ceil,log
 print(floor(45.4))
 print(ceil(34.3))
 print(log(1))
+
